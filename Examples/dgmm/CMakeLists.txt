@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.5.1)
 
 set(CMAKE_CXX_COMPILER "/opt/rocm/bin/hipcc")
 #set(ROCBLAS_INSTALL "/opt/rocm-3.3.0")
-set(ROCBLAS_INSTALL "/opt/rocm")
+# using local install for now
+set(ROCBLAS_INSTALL "/home/mdmsujon/git/rocBLAS/build/release/rocblas-install")
 
 project ( i8_test LANGUAGES CXX )
 
